@@ -1,4 +1,3 @@
-//filtrar datos para usar los indicadores relacionados con la educació
 const wbData = window.WORLDBANK;
 let filteredCountry = [];
 let filteredIndicators = [];
