@@ -197,7 +197,10 @@ button {
     height: auto;
     max-width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   section {
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -517,15 +520,19 @@ button {
     align-items: center;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   .logo {
     display: inline-block;
     width: 18%;
     padding-right: 20em;
     margin: 1%;
   }
+<<<<<<< HEAD
 
   .buttonHeader {
     justify-content: right;
@@ -533,6 +540,12 @@ button {
 
   }
 
+=======
+  .buttonHeader {
+    justify-content: right;
+    display: flex;
+  }
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   .info-button {
     font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
@@ -542,18 +555,27 @@ button {
     padding: 1%;
     width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     font-size: 2em;
   }
+<<<<<<< HEAD
 
   #indicator-name {
     font-size: 1.5em;
   }
 
+=======
+  #indicator-name {
+    font-size: 1.5em;
+  }
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   .mainFigure {
     display: inline-block;
     width: 30%;
@@ -563,7 +585,10 @@ button {
     margin-right: 1.5%;
     margin-bottom: 0.5%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   .elements {
     background-color: rgb(255, 155, 155);
     padding: 1%;
@@ -575,14 +600,28 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
   }
+<<<<<<< HEAD
 
   #mainFiguremobile {
     display: none;
   }
 
+=======
+  #mainFiguremobile {
+    display: none;
+  }
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
   table {
     border-collapse: collapse;
     width: 50%;
     margin: 5% 25% 5% 25%;
  }
+<<<<<<< HEAD
 } */
+=======
+<<<<<<< HEAD
+} */
+=======
+} */
+>>>>>>> upstream/master
+>>>>>>> cc775a229669b2b6b913be41202521d6572062e7
