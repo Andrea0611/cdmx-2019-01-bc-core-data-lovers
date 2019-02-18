@@ -1,0 +1,588 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* background-image: url("./imagenes/imgEstudiantesBN.jpg");
+  background-size: 100%; */
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+#myChart {
+  display: none;
+}
+
+section {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#indicator {
+  display: none;
+  width: 75%;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 10px;
+  padding: .3%;
+  background-color: rgb(253, 155, 155);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+#type-of-order {
+  width: 100%;
+  text-align: center;
+  font-size: 90%;
+  border-radius: 10px;
+  padding: .2%;
+  margin-bottom: 3%;
+}
+
+h1 {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.indicator-result {
+  text-align: center;
+  font-size: .2em
+}
+
+.general-information {
+  display: none;
+}
+
+td {
+  border: 0.1em solid #3531310e;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+section {
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  cursor: pointer;
+}
+
+#font {
+  font-size: 1em
+}
+
+#mean-button {
+  background-color: rgb(253, 155, 155);
+}
+
+#mean-result {
+  border-color:  rgb(218, 92, 92);
+  border-style: solid;
+  text-align: center;
+  margin-left: 25%;
+  display: none;
+}
+
+.mean {
+  margin-right: 9%;
+  width: 65%;
+  font-size: 1em;
+}
+
+/* pantallas teléfonos móviles */
+@media only screen and (max-width: 767px) {
+  #header {
+    overflow: hidden;
+    background-color: rgb(233, 231, 231);
+    position: relative;
+    padding: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logoVert {
+    display: inline-block;
+    margin: 3%;
+    width: 50%;
+    text-align: left;
+    width: 28%;
+  }
+
+  .principal {
+    margin: 1%;
+    width: 98%;
+    padding: 0%;
+  }
+
+  p {
+    font-size: .75em;
+  }
+
+  .paragraphIntroduction {
+    background-color: rgb(229, 99, 99);
+    padding: 4%;
+    margin: 0%;
+    color: white;
+  }
+
+  #buttonData {
+    background-color: rgb(64, 27, 27);
+    padding: 1.5%;
+    width: 50%;
+    margin: 0;
+    margin: 4%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    color: white;
+    border: none;
+  }
+
+  h1 {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .country {
+    background-color: rgb(255, 110, 110);
+    padding: 1%;
+    width: 20%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border: none;
+  }
+
+  .elements {
+    background-color: rgb(191, 82, 82);
+    padding: 1%;
+    width: 40%;
+    margin: 0;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border: none;
+    color: white;
+  }
+
+  #indicator {
+    width: 90%;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  section {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    width: 100%;
+    text-align: center;
+  }
+
+  #mainFiguremobile {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+    width: 95%
+  }
+
+  #demographic {
+    margin-left: 1%;
+  }
+
+  #indicator-name {
+    font-size: .6em;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  /* boton burguer */
+  #buttonHeader {
+    display: none;
+    background-color: rgb(255, 110, 110);
+  }
+
+  .center button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .1em;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background: none;
+    border: none
+  }
+
+  .center figure.bar {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5%;
+    display: inline-block;
+    width: 8%;
+  }
+
+  .center {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+  #section-orderChart {
+    background: white;
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+
+  #indicator-name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #chartBox {
+    margin: 0%;
+    padding: 0%;
+    width: 98%;
+    background-color: white;
+  }
+
+  #tableBox {
+    /* display: inline-block; */
+    background-color: white;
+  }
+
+  #type-of-order {
+    width: 90%;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #startButton,
+  #chooseIndicator {
+    background-color: rgb(64, 27, 27);
+    padding: 2%;
+    width: 40%;
+    margin: 0;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+}
+
+/* pantallas tablets */
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-image: url("./imagenes/imgEstudiantesBNok.jpg");
+    background-size: cover;
+  }
+
+  .logoVert {
+    display: none;
+  }
+
+  .principal {
+    display: none;
+  }
+
+  #header {
+    background-color: white;
+    opacity: 0.9;
+    font-size: 10pt;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .paragraphIntroduction {
+    width: 20%;
+    background-color: rgb(229, 99, 99);
+    opacity: 0.9;
+    padding: 2%;
+    margin: 3%;
+  }
+
+  #buttonData {
+    background-color: rgb(64, 27, 27);
+    padding: 2%;
+    width: 60%;
+    margin: 0;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+    border: none;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 15%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-right: 30%;
+    cursor: pointer;
+  }
+
+    #bar {
+      display: none;
+    }
+
+    .info-button {
+      font-size: 1.4em;
+      font-family: 'Montserrat', sans-serif;
+      text-align: right;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    #section-country {
+      background: white;
+      padding-top: 1%;
+    }
+
+    .country {
+      background-color: rgb(255, 110, 110);
+      padding: 1%;
+      width: 20%;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 1%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      border: none;
+    }
+
+    .mainFigure {
+      display: inline-block;
+      width: 30%;
+      padding: 0%;
+      margin: 0;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 0.5%;
+    }
+
+    #section-type {
+      background: white;
+      padding-bottom: 1%;
+      padding-top: 1%;
+    }
+
+    .mainFiguremobile {
+      display: none;
+    }
+
+    .elements {
+      background-color: rgb(191, 82, 82);
+      padding: 1%;
+      width: 15%;
+      margin: 0;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 2%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      border: none;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      margin: 1%;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    #section-orderChart {
+      background: white;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    #indicator-name {
+      margin-left: auto;
+      margin-right: auto;
+      width: 55%;
+    }
+
+    #chartBox {
+      /* display: inline-block; */
+      padding: 0%;
+      width: 75%;
+      float: left;
+      padding-left: 3%;
+      background-color: white;
+    }
+
+    #tableBox {
+      /* display: inline-block; */
+      text-align: right;
+      float: right;
+      padding-right: 3%;
+      background-color: white;
+      width: 19%;
+    }
+
+    #type-of-order {
+      margin: 10%
+    }
+
+    table {
+      border-collapse: collapse;
+      text-align: center;
+      margin-left: 30%;
+    }
+
+    #startButton,
+    #chooseIndicator {
+      background-color: rgb(64, 27, 27);
+      padding: 1%;
+      width: 20%;
+      margin: 0;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-bottom: 4%;
+      margin-top: 2%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      color: white;
+      font-weight: bold;
+      border: none;
+    }
+  }
+
+    /* pantalla desktops */
+    /* @media only screen and (min-width: 1024px) {
+  #header {
+    background-color: rgb(233, 231, 231);
+    font-size: 10pt;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+
+
+  .logo {
+    display: inline-block;
+    width: 18%;
+    padding-right: 20em;
+    margin: 1%;
+  }
+
+  .buttonHeader {
+    justify-content: right;
+    display: flex;
+
+  }
+
+  .info-button {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    border: none;
+    background: none;
+    padding: 1%;
+    width: 100%;
+  }
+
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 2em;
+  }
+
+  #indicator-name {
+    font-size: 1.5em;
+  }
+
+  .mainFigure {
+    display: inline-block;
+    width: 30%;
+    padding: 0%;
+    margin: 0;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 0.5%;
+  }
+
+  .elements {
+    background-color: rgb(255, 155, 155);
+    padding: 1%;
+    width: 30%;
+    margin: 0;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+  }
+
+  #mainFiguremobile {
+    display: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+ }
+} */
