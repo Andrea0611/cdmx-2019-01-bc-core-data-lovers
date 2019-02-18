@@ -68,6 +68,7 @@ h1 {
   display: none;
 }
 
+
 td {
   border: 0.1em solid #3531310e;
   text-align: left;
@@ -172,8 +173,8 @@ section {
     max-width: 100%;
   }
 
-  section {
-    font-family: 'Montserrat', sans-serif;
+  section{
+      font-family: 'Montserrat', sans-serif;
     color: black;
     width: 100%;
     text-align: center;
@@ -345,8 +346,9 @@ section {
     margin-bottom: 1%;
     margin-top: 1%;
     padding-right: 30%;
+    cursor: pointer;
   }
-
+  
   #bar {
     display: none;
   }
@@ -357,6 +359,7 @@ section {
     text-align: right;
     border: none;
     background: none;
+    cursor: pointer;
   }
 
   #section-country {
@@ -491,7 +494,7 @@ section {
   }
 
 
-  
+
   .logo {
     display: inline-block;
     width: 18%;
@@ -499,9 +502,9 @@ section {
     margin: 1%;
   }
 
-  .buttonHeader{
+  .buttonHeader {
     justify-content: right;
-    display:flex;
+    display: flex;
 
   }
 
@@ -520,11 +523,12 @@ section {
     margin-right: auto;
     width: 50%;
     font-size: 2em;
-  }  
+  }
 
-  #indicator-name{
+  #indicator-name {
     font-size: 1.5em;
   }
+
   .mainFigure {
     display: inline-block;
     width: 30%;
