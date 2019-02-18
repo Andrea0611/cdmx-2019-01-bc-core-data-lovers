@@ -1,4 +1,3 @@
-//Funciones a testear
 window.worldBank = {
   filterCountry: (data, country) => {
     let countryName = [];
