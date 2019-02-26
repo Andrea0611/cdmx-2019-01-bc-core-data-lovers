@@ -3,6 +3,10 @@ El presente proyecto fue denominado "Data Femme", cuyo propósito es facilitar e
 Data Femme está pensada para que estudiantes e investigares de temas relacionados con género, puedan acceder de manera sencilla, intuitiva, y rápida a la base de datos del Banco Mundial de Desarrollo, para consultar los **Indicadores de Desarrollo** que el mismo trabaja. De esta manera las investigaciones no se verán frenadas por la búsqueda de información.
 Para cumplir con los objetivos mencionados, se realizó un prototipo de baja fidelidad, y uno de alta fidelidad.
 
+# Analisis UX del producto
+Para leer el informe haga click en el siguiente link
+https://drive.google.com/open?id=1pFq20xfLim5B7nmt5VOmkVPFF3XOiB-P49UaoBtKpx4
+
 # Diseño de la Interfaz de Usuario
 ### Prototipo de baja fidelidad
 A continuación se presenta el prototipo de baja fidelidad.
